@@ -20,6 +20,8 @@ header li {
 }
 
 #header-card .card {
+  background-color: unset;
+  border: none;
   max-width: 80%;
 }
 
@@ -36,9 +38,15 @@ header li {
 #header-card .btn {
   background-image: linear-gradient(to right, rgb(122, 1, 122), #f9b6ff);
   border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2em;
 }
 
 header video {
   width: 80%;
+}
+
+#header-card .btn, header video {
+  box-shadow: 7px 7px 5px grey;
 }
 
