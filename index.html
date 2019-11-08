@@ -14,14 +14,14 @@
 <body>
 
   <header class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light pl-5 pr-5">
+    <nav class="navbar navbar-expand-lg navbar-dark pl-5 pr-5 fixed">
       <a class=" navbar-brand" href="#"><img src="https://image.flaticon.com/icons/svg/1512/1512448.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav font-weight-bold">
+        <ul id="header-ul" class="navbar-nav font-weight-bold text-white">
           <li class="nav-item">
             <a class="nav-link" href="#">HOME</a>
           </li>
@@ -37,6 +37,28 @@
         </ul>
       </div>
     </nav>
+    <div id="header-content" class="row">
+      <div id="header-card" class="col-12 col-md-6 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <h2>Rubber Duck Debugging</h2>
+            <p class="card-text">When you are working by yourself, explain your code line by line to your rubber duck.
+              Feel free to go into extensive detail. Your rubber duck will listen to every word you say with no
+              judgement (unlike your coworker). Get your very own rubber duck today for only $549!
+            </p>
+            <a href="#" class="btn btn-primary">GET YOURS NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 d-flex justify-content-center order-first order-md-last header-video">
+
+        <video
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0031/small_watermarked/plastic_duckie01_preview.webm"
+          autoplay controls></video>
+
+        <!--https://cdn.videvo.net/videvo_files/video/premium/video0031/small_watermarked/plastic_duckie01_preview.webm  ruber duckie-->
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid"></main>

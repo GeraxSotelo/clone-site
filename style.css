@@ -1,12 +1,44 @@
 header {
   background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center;
-  background-position: cover;
+  background-size: cover;
 }
 
-header img {
+nav img {
   max-width: 3em;
 }
 
 header li {
   margin-right: 2em;
 }
+#header-ul a {
+  color: white;
+}
+
+#header-content {
+  padding-top: 6em;
+  padding-bottom: 5em;
+}
+
+#header-card .card {
+  max-width: 80%;
+}
+
+.card-text {
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1080px) {
+  .card-text {
+    font-size: 1em;
+  }
+}
+
+#header-card .btn {
+  background-image: linear-gradient(to right, rgb(122, 1, 122), #f9b6ff);
+  border: none;
+}
+
+header video {
+  width: 80%;
+}
+
