@@ -139,6 +139,19 @@ main .bg-white {
   height: .75em;
 }
 
-main .main-description {
 
+main .main-description img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  main .main-description img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main .main-description img {
+    margin-bottom: 2em;
+  }
 }
