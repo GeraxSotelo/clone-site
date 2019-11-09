@@ -1,3 +1,7 @@
+:root {
+  --yellow: rgb(224, 240, 0);
+}
+
 header {
   background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center;
   background-size: cover;
@@ -11,7 +15,14 @@ header li {
   margin-right: 2em;
 }
 #header-ul a {
-  color: white;
+  color: var(--yellow);
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: rgb(224, 240, 0, 0.5);
 }
 
 #header-content {
@@ -36,10 +47,12 @@ header li {
 }
 
 #header-card .btn {
-  background-image: linear-gradient(to right, rgb(122, 1, 122), #f9b6ff);
+  background-image: linear-gradient(to right, var(--yellow), #e6e494);
   border: none;
   border-radius: 0.5rem;
+  color: black;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 header video {
@@ -50,3 +63,30 @@ header video {
   box-shadow: 7px 7px 5px grey;
 }
 
+main .bg-yellow {
+  background-color: var(--yellow);
+  max-height: 100%;
+  position: relative;
+}
+
+main img {
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+}
+
+main .card {
+  background-color: rgb(255, 255, 255, 0.2);
+  border: none;
+  box-shadow: 5px 5px 5px grey;
+  width: 18em;
+}
+
+main .main-card .btn {
+  box-shadow: 5px 5px 5px grey;
+}
+
+main .bg-white {
+  background-color: white;
+  height: 20vh;
+}
