@@ -72,16 +72,16 @@ header video {
 main {
   background-color: var(--yellow);
   position: relative;
-  height: 90rem;
+  height: 102rem;
 }
 
-@media only all and (min-width: 653px) {
+@media only screen and (min-width: 653px) {
   main {
-    height: 60rem;
+    height: 65rem;
   }
 }
 
-@media only all and (min-width: 971px) {
+@media only screen and (min-width: 971px) {
   main {
     height: 80vh;
   }
@@ -107,11 +107,25 @@ main .card {
   background-color: rgb(255, 255, 255, 0.2);
   border: none;
   box-shadow: 5px 5px 5px grey;
+  height: 15em;
   width: 18em;
 }
 
-main .main-card .btn {
+@media only screen and (max-width: 652px) {
+  main .main-card-container {
+    padding-bottom: 3em;
+  }
+}
+
+main .card .card-body {
+  position: relative;
+}
+
+#card-button-1, #card-button-2, #card-button-3 {
   box-shadow: 5px 5px 5px grey;
+  position: absolute;
+  bottom: -1em;
+  right: 4.5em;
 }
 
 main .bg-white {
