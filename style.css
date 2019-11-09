@@ -45,7 +45,7 @@ header li {
     font-size: 1em;
   }
 
-  main .bg-yellow {
+  main .main-cards-container {
     position: relative;
     top: 0;
   }
@@ -69,6 +69,7 @@ header video {
   box-shadow: 7px 7px 5px grey;
 }
 
+/********** MAIN **********/
 main {
   background-color: var(--yellow);
   position: relative;
@@ -83,7 +84,7 @@ main {
 
 @media only screen and (min-width: 971px) {
   main {
-    height: 80vh;
+    height: 34rem;
   }
 }
 
@@ -92,12 +93,12 @@ main {
   position: relative;
 }
 
-main .bg-yellow {
+main .main-cards-container {
   position: absolute;
   top: 6em;
 }
 
-main img {
+main .main-cards-container img {
   border-radius: 50%;
   height: 15em;
   width: 15em;
@@ -130,5 +131,14 @@ main .card .card-body {
 
 main .bg-white {
   background-color: white;
-  height: 20vh;
+  height: 15rem;
+}
+
+.purple-line {
+  background-color: purple;
+  height: .75em;
+}
+
+main .main-description {
+
 }
