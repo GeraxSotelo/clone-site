@@ -105,7 +105,7 @@ main .main-cards-container img {
 }
 
 main .card {
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgb(255, 255, 255, 0.5);
   border: none;
   box-shadow: 5px 5px 5px grey;
   height: 15em;
@@ -153,5 +153,19 @@ main .main-description img {
 @media only screen and (max-width: 767px) {
   main .main-description img {
     margin-bottom: 2em;
+  }
+}
+
+main .main-logo {
+  background-color: purple;
+}
+
+main .main-logo img{
+  max-width: 4.5em;
+}
+
+@media only screen and (min-width: 971px) {
+  main .main-logo img{
+    max-width: 5em;
   }
 }
