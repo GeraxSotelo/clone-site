@@ -96,12 +96,15 @@ main .main-content-container {
 main .main-cards-container {
   position: absolute;
   top: 6em;
+  right: 15px;
+  left: 15px;
 }
 
-main .main-cards-container img {
+main .main-img-container img {
   border-radius: 50%;
   height: 15em;
   width: 15em;
+  object-fit: cover;
 }
 
 main .card {
