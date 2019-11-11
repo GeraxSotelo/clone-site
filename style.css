@@ -2,6 +2,9 @@
   --yellow: rgb(224, 240, 0);
 }
 
+/********************
+        HEADER
+********************/
 header {
   background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center;
   background-size: cover;
@@ -14,6 +17,7 @@ nav img {
 header li {
   margin-right: 2em;
 }
+
 #header-ul a {
   color: var(--yellow);
   font-size: 1.1em;
@@ -44,16 +48,11 @@ header li {
   .card-text {
     font-size: 1em;
   }
-
-  main .main-cards-container {
-    position: relative;
-    top: 0;
-  }
-
 }
 
 #header-card .btn {
   background-image: linear-gradient(to right, var(--yellow), #e6e494);
+  background-image: linear-gradient(to right, purple, rgb(250, 191, 250));
   border: none;
   border-radius: 0.5rem;
   color: black;
@@ -69,21 +68,22 @@ header video {
   box-shadow: 7px 7px 5px grey;
 }
 
-/********** MAIN **********/
-main {
+/********************
+        MAIN
+********************/
+main .main-content-container {
   background-color: var(--yellow);
-  position: relative;
   height: 102rem;
 }
 
 @media only screen and (min-width: 653px) {
-  main {
+  main .main-content-container {
     height: 65rem;
   }
 }
 
 @media only screen and (min-width: 971px) {
-  main {
+  main .main-content-container {
     height: 34rem;
   }
 }
@@ -151,6 +151,10 @@ main .main-description img {
 }
 
 @media only screen and (max-width: 767px) {
+  main .main-description {
+    margin: 5.5em auto;
+  }
+  
   main .main-description img {
     margin-bottom: 2em;
   }
@@ -160,12 +164,19 @@ main .main-logo {
   background-color: purple;
 }
 
-main .main-logo img{
+main .main-logo img {
   max-width: 4.5em;
 }
 
 @media only screen and (min-width: 971px) {
-  main .main-logo img{
+  main .main-logo img {
     max-width: 5em;
   }
+}
+
+/********************
+        FOOTER
+********************/
+footer {
+  background-color: #222;
 }
