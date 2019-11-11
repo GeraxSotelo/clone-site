@@ -26,8 +26,8 @@ header li {
 }
 
 .navbar-dark .navbar-toggler {
-  background-color: rgb(224, 240, 0, 0.7);
-  border: 1px solid purple;
+  background-color: rgba(128, 0, 128, 0.8);
+  border: 1px solid rgb(224, 240,);
 }
 
 #header-content {
